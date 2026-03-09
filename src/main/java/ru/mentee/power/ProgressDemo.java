@@ -5,7 +5,7 @@ public class ProgressDemo {
 
         System.out.printf("Hello and welcome!%n");
 
-        MenteeProgress progress = new MenteeProgress("Laura", 1, 6);
+        MenteeProgress progress = new MenteeProgress("Laura",1, 6);
 
         System.out.println(progress.summary());
 
