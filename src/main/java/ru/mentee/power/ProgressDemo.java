@@ -1,23 +1,20 @@
 package ru.mentee.power;
 
+import ru.mentee.power.devtools.student.Student;
+import ru.mentee.power.devtools.student.StudentList;
+
+import java.util.ArrayList;
+
 public class ProgressDemo {
-    public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!%n");
+  public static void main(String[] args) {
 
-        MenteeProgress progress = new MenteeProgress("Laura", 1, 6);
+    StudentList studentList = new StudentList(new ArrayList<>());
 
-        System.out.println(progress.summary());
+    Student student = new Student("Laura", "Saratov");
 
+    studentList.addStudent(student);
 
-        if (progress.readyForSprint()) {
-            System.out.println("Status: sprint ready");
-        } else {
-            System.out.println("Status: backlog first");
-        }
-
-
-        System.out.println("Working in feature/DVT-3");
-
-    }
+    System.out.println(studentList.getStudentList());
+  }
 }

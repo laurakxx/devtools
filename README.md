@@ -247,7 +247,7 @@ nothing to commit, working tree clean
 
 Для хранения информации о студенте используется record `Mentee`.
 
-```java
+``java
 public record Mentee(
   String name,
   String city,
@@ -256,6 +256,7 @@ public record Mentee(
   int totalLessons
 ) {}
 ---
+
 # Кодстайл-гайд проекта DVT-7
 
 Проект следует правилам **Google Java Style Guide** с адаптацией.  
