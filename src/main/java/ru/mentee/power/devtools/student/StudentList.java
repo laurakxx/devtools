@@ -12,10 +12,10 @@ public class StudentList {
   }
 
   public void addStudent(Student student) {
-    if (student != null) {
+    if (student != null)
       studentList.add(student);
 
-    }
+
   }
 
   public List<Student> getStudentList() {
