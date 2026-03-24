@@ -1,3 +1,6 @@
+# GitHub Actions badge
+[![Java CI with Checkstyle and Jacoco](https://github.com/mnnnssr/devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/mnnnssr/devtools/actions/workflows/ci.yml)
+
 # DVT-2
 
 Учебный Gradle-проект для освоения:
